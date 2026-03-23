@@ -25,6 +25,7 @@ header{
     color: #000000;
     display: grid;
     max-height: 15em;
+    margin-bottom: 2em;
 }
 
 nav{
@@ -48,6 +49,24 @@ a{
     color: #F5EFE6;
 }
 
+h1{
+    justify-self: center;
+}
+
 #welcome{
-    justify-items: center;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+footer{
+    background: #2D5A27;
+    color: #000000;
+    height: 5em;
+    margin-top: 2em;
 }
