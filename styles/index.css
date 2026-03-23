@@ -1,0 +1,53 @@
+@import url();
+
+/* Colors: 
+Primary: #2D5A27
+Secondary: #C4956A
+Accent 1: #A8C97F
+Accent 2: #F5EFE6 */
+
+/* Fonts:
+Heading: Fraunces
+Paragraph: Nunito */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    background: #2D5A27;
+    color: #000000;
+    display: grid;
+    max-height: 15em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Fraunces;
+}
+
+p{
+    font-family: Nunito;
+}
+
+a{
+    font-family: system-ui, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: #F5EFE6;
+}
+
+#welcome{
+    justify-items: center;
+}
