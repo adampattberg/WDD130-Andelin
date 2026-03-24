@@ -18,6 +18,7 @@ Paragraph: Nunito */
 
 body{
     margin: auto;
+    background-color: #F5EFE6;
 }
 
 header{
@@ -59,11 +60,42 @@ h1{
     grid-template-columns: 1fr 2fr;
 }
 
+#homepage-image{
+    padding: 3em;
+}
+
+#welcome-message{
+    padding: 3em;
+}
+
 #gallery{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 35em;
 }
+
+#gallery-card{
+    justify-items: center;
+    background-color: #C4956A;
+    border: solid, black, 5px;
+    margin: 1em;
+}
+
+#gallery-image{
     
+}
+
+#community{
+    justify-items: center;
+    background-color: #C4956A;
+    border: solid, black, 5px;
+    margin: 1em;
+}
+
+.submit-button{
+    background-color: #2D5A27;
+}
+
 footer{
     background: #2D5A27;
     color: #000000;
