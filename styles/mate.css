@@ -1,0 +1,92 @@
+/* Colors: 
+Primary: #2D5A27
+Secondary: #C4956A
+Accent 1: #A8C97F
+Accent 2: #F5EFE6 */
+
+/* Fonts:
+Heading: Fraunces
+Paragraph: Nunito */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    background-color: #F5EFE6;
+}
+
+nav{
+    display: grid;
+    background: #2D5A27;
+    color: #000000;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    max-height: 10em;
+}
+a{
+    font-family: system-ui, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: #F5EFE6;
+}
+main {
+    margin-top: 32px;
+    padding-left: 3em;
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+main h1 {
+    font-size: xxx-large;
+}
+#section-1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 32px;
+}
+section img {
+    width: 32em;
+    height: 40em;
+    border: solid, black, 5px;
+    object-fit:fill;
+    box-shadow: 2.5px 5px 10px #2f2f2f;
+}
+section p {
+    font-size: 32px;
+    background-color: #C4956A;
+    border: solid, black, 5px;
+    padding: 40px;
+    max-height: 640px;
+    overflow: scroll;
+    box-shadow: 2.5px 5px 10px #2f2f2f;
+}
+section p::-webkit-scrollbar {
+  display: none;
+}
+#section-2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 32px;
+}
+footer{
+    background: #2D5A27;
+    color: #000000;
+    margin-top: 32px;
+    display: grid;
+}
+
+#footer-image{
+    justify-self: center;
+}
+
+footer p{
+    justify-self: center;
+    color: #F5EFE6;
+}
+

@@ -24,7 +24,6 @@ body{
 header{
     background: #2D5A27;
     color: #000000;
-    display: grid;
     max-height: 10em;
     margin-bottom: 2em;
 }
